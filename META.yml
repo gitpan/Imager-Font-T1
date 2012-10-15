@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Imager-Font-T1
-version:            1.017
+version:            1.018
 abstract:           T1Lib font driver for Imager
 author:
     - Tony Cook <tonyc@cpan.org>

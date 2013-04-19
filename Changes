@@ -1,3 +1,34 @@
+Imager::Font::T1 1.022
+======================
+
+ - depend on Imager 0.95.
+
+Imager::Font::T1 1.021
+======================
+
+Released as part of Imager 0.94_02.
+
+ - enable the debug log for t/t90std.t
+
+ - add typemap to the manifest, this caused build failures in 1.020.
+
+Imager::Font::T1 1.020
+======================
+
+ - add the 1.019 changes list
+
+ - update README
+
+Imager::Font::T1 1.019
+======================
+
+ - slightly improve control over anti-aliasing, this is now recorded
+   per thread
+
+ - use a mutex to avoid re-entering t1lib, which isn't thread safe.
+
+ - avoid a paralled testing race condition.
+
 Imager::Font::T1 1.018
 ======================
 
